@@ -1,7 +1,7 @@
 import Ember from 'ember';
 import hbs from 'htmlbars-inline-precompile';
 import connect from 'ember-redux/components/connect';
-import { getActiveThemeName } from '../../reducers/theme';
+import { getActiveThemeName } from 'themes/reducers/theme';
 
 var stateToComputed = (state) => {
   return {
